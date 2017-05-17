@@ -1,6 +1,6 @@
 {
-  "name": "i18n-static",
-  "description": "Universal i18n solution for static resource",
+  "name": "i18n-static-add-single",
+  "description": "Universal i18n solution for static resource add single file translate",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
   "version": "0.1.1",
   "main": "lib/",
