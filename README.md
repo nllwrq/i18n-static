@@ -465,7 +465,7 @@ module: {
 
 增加gulp watch 监听修改单一文件翻译的功能
 
-
+```js
 {
   srcDir: srcDir, //srcDir 可以为目录或者文件
   buildDir: path.join(__dirname, 'dist/__build__'),
@@ -473,6 +473,6 @@ module: {
   sourceLang: 'zh-cn',
   defaultLang: 'en',
   saveLocalesTo: path.join(__dirname, 'dist/locales.json'),
-  isFile:isFile, //如果srcDir 可以为目录则为undefined，否则为isFile，此处可以直接fs判断
   appDir:appDir //开发目录
 }
+```
