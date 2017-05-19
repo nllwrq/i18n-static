@@ -473,6 +473,7 @@ module: {
   sourceLang: 'zh-cn',
   defaultLang: 'en',
   saveLocalesTo: path.join(__dirname, 'dist/locales.json'),
-  appDir:appDir //开发目录
+  appDir:appDir, //开发目录
+  glob:path.join(__dirname, 'dist/__build__/**/*.js')
 }
 ```
